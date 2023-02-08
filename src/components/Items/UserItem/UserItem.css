@@ -1,0 +1,68 @@
+.users-list {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.user-item {
+    width: calc(33.3333% - 64px);
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid #000;
+}
+
+.user-item > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-item img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #000;
+}
+
+.user-item > div > div:first-child {
+    margin-bottom: 30px !important;
+}
+
+.user-item > div > div:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.user-item .user-controller {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-item .user-controller button {
+    width: 40%;
+    padding: 5px 0;
+    border: 2px solid #000;
+}
+
+.user-page {
+    margin-left: 0px;
+}
+
+.user-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-page-wrapper > ul.user-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.user-page-wrapper .user-item {
+    margin-right: 60px;
+}

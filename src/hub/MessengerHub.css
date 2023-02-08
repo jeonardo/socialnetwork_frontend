@@ -1,0 +1,118 @@
+Form Button {
+    width: 100%;
+}
+
+h2 {
+    color: #313131;
+}
+
+h6 {
+    color: greenyellow;
+}
+
+hr.line {
+    border: 1px solid #313131;
+    width: 175px;
+}
+
+.app {
+    margin: auto;
+    padding-top: 40px;
+    width: 950px;
+    text-align: center;
+}
+
+.lobby {
+    width: 400px;
+    margin: auto;
+}
+
+.chat {
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leave-room {
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+.user-list {
+    float: left;
+    background-color: #313131;
+    color:white;
+    width: 250px;
+    min-height: 740px;
+    margin-right: 4px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-container {
+    flex-grow: 1;   
+    background-color: white;
+    overflow: auto;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.user-message {
+    text-align: right;
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.message {
+    display: inline-flex;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    font-size: 18px;
+    color:white;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+
+.from-user {
+    font-size: small;
+    margin-bottom: 3px;
+    margin-right: 5px;
+}
+
+.hubwrapper {
+    margin-block: auto;
+    padding-block: unset;
+}
+
+.chatik {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.chat form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    margin-left: 30px;
+    padding: 30px;
+    background-color: #313131;
+}
+
+.chat form input {
+    width: 80%;
+}
+
+.chat form button {
+    background-color: #fff;
+}
+
+.chat form button {
+    width: 15% !important;
+}

@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .card-container.card {
+    max-width: 350px !important;
+    padding: 40px 40px;
+  }
+  
+  .card {
+    background-color: #f7f7f7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .nav-all-users {
+    position: relative;
+    display: inline-block;
+  }
+
+  .nav-all-users:hover .nav-all-users-block {
+    display: block;
+  }
+
+  .nav-all-users-block {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background-color: #212529;
+  }
+
+  .nav-all-users-block a {
+    padding: 0px;
+  }
+
+  .nav-all-users-block a {
+    margin-top: 10px;
+    position: relative;
+  }
+
+  .nav-all-users-block a:last-child {
+    margin-bottom: 10px;
+  }
+  
+  .nav-all-users > a span::after {
+    content: ">";
+    position: absolute;
+    top: 8px;
+    right: -2px;
+    transform: rotate(90deg);
+    font-size: 14px;
+  }
+
+  .nav-all-users:hover > a span::after {
+    color: #fff;
+    transform: rotate(-90deg);
+    transition: 0.3s;
+  }
+
+  .ml-auto {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .nav-if-auth .nav-item:last-child {
+    margin-left: auto;
+    color: #fff;
+    position: relative;
+    margin-right: 50px;
+  }
+
+  .nav-profile {
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 0 0 20px;
+  }
+
+  .nav-profile-block {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #212529;
+    width: 200px;
+  }
+
+  .nav-profile-block a {
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .nav-item-wrapper:hover .nav-profile-block {
+    display: block;
+  }
+
+  .nav-profile-block a:last-child {
+    margin-bottom: 10px;
+  }
+
+  .nav-item-wrapper > span::after  {
+    content: ">";
+    position: absolute;
+    top: 7px;
+    left: -30px;
+    transform: rotate(90deg);
+    font-size: 24px;
+  }
+
+  .nav-item-wrapper:hover > span::after {
+    color: #fff;
+    transform: rotate(-90deg);
+    transition: 0.3s;
+  }

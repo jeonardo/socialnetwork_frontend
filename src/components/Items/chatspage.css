@@ -1,0 +1,93 @@
+.chats-page {
+    display: flex;
+    width: 80%;
+    margin: 50px auto 100px;
+    border: 1px solid black;
+}
+
+.all-chats {
+    width: 30%;
+    min-height: 500px;
+    padding: 30px;
+    border-right: 1px solid black;
+}
+
+.current-chat {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all-chats-wrapper {
+    border: 1px solid black;
+}
+
+.all-chats-wrapper button {
+    width: 100%;
+    border: none;
+    padding: 20px 0;
+}
+
+.all-chats-wrapper button:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.chat-link a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+
+.chat-link a div {
+    text-align: center;
+    color: black;
+}
+
+.chat-link:hover {
+    background-color: rgb(188, 188, 228);
+}
+
+.chat-link:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.chat-controller {
+    border-top: 1px solid black;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chat-controller input {
+    width: 83%;
+}
+
+.messages-list {
+    flex-grow: 1;
+    padding: 30px;
+}
+
+.messages-list-wrapper {
+    border: 1px solid black;
+    padding: 30px;
+    height: 100%;
+}
+
+.current-message {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #e9f5e4;
+}
+
+.current-message:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.checkbox-place{
+    height: -50px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
